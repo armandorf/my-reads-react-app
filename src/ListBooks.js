@@ -131,7 +131,6 @@ class ListBooks extends Component {
                 </ol>
               </div>
             </div>
-            }
           </div>
         </div>
         <div className="open-search">
