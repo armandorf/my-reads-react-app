@@ -33,6 +33,13 @@ class ListBooks extends Component {
           break
       }
     })
+
+    return (
+        <div className="open-search">
+          <Link to="/search">Add a book</Link>
+        </div>
+      </div>
+    )
   }
 }
 
