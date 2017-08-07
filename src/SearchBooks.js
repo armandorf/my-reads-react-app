@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 class SearchBooks extends Component {
 
@@ -18,7 +18,7 @@ class SearchBooks extends Component {
   updateQuery = (query) => {
     this.setState({query: query.trim()})
     this.props.onUpdateQuery(query)
-  }
+  };
 
   render() {
     const {books, searchResult, onEditBook} = this.props
@@ -75,8 +75,8 @@ class SearchBooks extends Component {
           </ol>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default SearchBooks
+export default SearchBooks;
