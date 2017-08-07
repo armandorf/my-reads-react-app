@@ -19,6 +19,10 @@ class SearchBooks extends Component {
     this.setState({query: query.trim()})
     this.props.onUpdateQuery(query)
   }
+
+  render() {
+    const {books, searchResult, onEditBook} = this.props
+  }
 }
 
 export default SearchBooks
