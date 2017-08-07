@@ -22,6 +22,18 @@ class SearchBooks extends Component {
 
   render() {
     const {books, searchResult, onEditBook} = this.props
+
+    // match status of each book in searchResult with books in main page
+    let matchingBooks = []
+    if (searchResult.length > 0) {
+      matchingBooks = searchResult.map(book => {
+        let match = books.find(b => b.id === book.id)
+        if (!match) {
+          book.shelf = 'none'
+        }
+        return match ? match : book
+      })
+    }
   }
 }
 
