@@ -40,7 +40,7 @@ class BooksApp extends React.Component {
       })
     });
     BooksAPI.update(book, shelf);
-  }
+  };
 
   searchBooks = (query) => {
     BooksAPI.search(query.trim(), MAX_RESULTS).then((books) => {

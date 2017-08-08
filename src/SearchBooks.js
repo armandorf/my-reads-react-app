@@ -16,7 +16,7 @@ function SearchBooks(props) {
         book.shelf = 'none';
       }
       return match ? match : book;
-    })
+    });
   }
 
   return (
