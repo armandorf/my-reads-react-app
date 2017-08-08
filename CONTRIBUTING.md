@@ -1,3 +1,3 @@
 # How to contribute
 
-The files in this repository are used in the course videos and are the starting point for all students. Because we want all students to have the same experience going through course, if your pull request alters any of the core files, then it (most likely) will _not_ be merged into the project.
+This repository is the first project in Udacity's React Nanodegree. I may be making some more changes in the future, but for now I am not planning to accept any pull requests until I set up a Node server for it (instead of using Udacity's).
